@@ -8,7 +8,7 @@ import {Store} from "../context/store";
 
 function ShopCompo(props) {
   let store = useContext(Store);
-  // let [pro, setPro] = store.items;
+ let [pro, setPro] = store.items;
   let [price, setPrice]=store.storePrice
   let [image, setImage] =store.storeImage;
   let [name, setName] = store.storeName;
@@ -26,10 +26,10 @@ function ShopCompo(props) {
         <>
             <div className="shopContent">
            
-        {/* <Row> */}
-        {/* {pro.map((item,index) => { */}
+         <Row> 
+        {pro.map((item,index) => { 
        
-        {/* return ( */}
+        return ( 
 
               <Col style={{display:''}}>
                 <div className="shopCntWrapper">
@@ -77,7 +77,7 @@ function ShopCompo(props) {
                 </div>
 
             </Col>
-      </div>
+      </Row>
      
             </>
     )
