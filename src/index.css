@@ -1,0 +1,117 @@
+/* body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+ul li:first-child {
+  background: url(./assets/bg2.jpg), linear-gradient(red, blue);
+}
+
+.black-card,
+.purple-card {
+  width: 180px;
+  padding: 25px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input[type="text"] {
+  padding: 3px;
+  margin-right: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+button {
+  padding: 4px;
+  transition: 0.3s;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: rebeccapurple;
+  color: #fff;
+}
+.text {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pad-40 {
+  padding: 4px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.pad-40:hover {
+  background: rebeccapurple;
+  color: #fff;
+}
+.pad-40:hover svg {
+  fill: #fff !important;
+}
+.black-card {
+  background: #000;
+}
+
+.purple-card {
+  background: rebeccapurple;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+.space-btw {
+  justify-content: space-between;
+}
+
+.margin {
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  top: -100px;
+}
+label {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+  z-index: 2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  content: "";
+  width: 36px;
+  height: 16px;
+  background: orange;
+  border-radius: 20px;
+  position: relative;
+  top: 2.5px;
+}
+input[type="checkbox"]:checked + label {
+  transform: translateX(20px);
+}
+
+audio{
+  width:100px;
+  height: 100px;
+  background: blue;
+} */
